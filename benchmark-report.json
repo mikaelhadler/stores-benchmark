@@ -1,0 +1,37 @@
+{
+  "timestamp": "2025-06-26T18:14:40.965Z",
+  "bundleAnalysis": {
+    "totalSize": 0,
+    "jsFiles": 0,
+    "vendorChunks": 0,
+    "appChunks": 0
+  },
+  "recommendations": {
+    "redux": {
+      "pros": [
+        "Mais maduro e amplamente adotado",
+        "Ferramentas de desenvolvimento robustas",
+        "Padrão bem estabelecido",
+        "Excelente para aplicações grandes"
+      ],
+      "cons": [
+        "Bundle size maior",
+        "Boilerplate mais verboso",
+        "Curva de aprendizado mais íngreme"
+      ]
+    },
+    "nanostores": {
+      "pros": [
+        "Extremamente leve (2.1KB vs 13.5KB)",
+        "API simples e intuitiva",
+        "Performance otimizada",
+        "Menor bundle size"
+      ],
+      "cons": [
+        "Menos maduro",
+        "Ferramentas de desenvolvimento limitadas",
+        "Comunidade menor"
+      ]
+    }
+  }
+}
