@@ -89,6 +89,10 @@ export function bulkAddTodos(texts: string[]) {
   todosStore.set([...currentTodos, ...newTodos])
 }
 
+export function resetCounter() {
+  countStore.set(0)
+}
+
 // Função para sincronizar stores individuais com a store principal
 export function syncStores() {
   appStore.set({

@@ -61,6 +61,9 @@ const counterSlice = createSlice({
         completed: false
       }))
       state.todos.push(...newTodos)
+    },
+    resetCounter: (state) => {
+      state.count = 0
     }
   }
 })
@@ -73,7 +76,8 @@ export const {
   toggleTodo,
   removeTodo,
   setLoading,
-  bulkAddTodos
+  bulkAddTodos,
+  resetCounter
 } = counterSlice.actions
 
 // Store configurada
